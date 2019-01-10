@@ -33,10 +33,6 @@ module.exports = {
     ssl: true,
     seeds: {
       directory: './db/seeds/production'
-    },
-    pool: {
-      min: 2,
-      max: 10
     }
   }
 }
