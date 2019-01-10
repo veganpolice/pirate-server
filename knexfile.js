@@ -33,6 +33,7 @@ module.exports = {
     ssl: true,
     seeds: {
       directory: './db/seeds/production'
-    }
+    },
+    useNullAsDefault: true
   }
 }
