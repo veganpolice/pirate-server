@@ -1,4 +1,5 @@
-module.exports = {
+const { Pool, Client } = require('pg')
+odule.exports = {
   development: {
     client: 'pg',
     connection:'postgres://localhost/pirateradio',
@@ -27,9 +28,9 @@ module.exports = {
     client: 'pg',
     ssl: true,
     connection: {
-      database: 'postgres://lyuxbvntyzrynz:c66dbf765b53be7055b590b025aa6923d52f9d70f47cfdd258130bdc358117de@ec2-174-129-18-247.compute-1.amazonaws.com:5432/d99fp6qm0ffebn' + `?ssl=true`,
-      user:     'username',
-      password: 'password'
+      database: 'postgres://ec2-174-129-18-247.compute-1.amazonaws.com:5432/d99fp6qm0ffebn',
+      user:     'lyuxbvntyzrynz',
+      password: 'c66dbf765b53be7055b590b025aa6923d52f9d70f47cfdd258130bdc358117de'
     },
     migrations: {
       directory: './db/migrations'
