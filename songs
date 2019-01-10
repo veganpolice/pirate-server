@@ -1,0 +1,122 @@
+\d
+\c
+create pirate
+\c pirate
+q
+q
+\c
+quit
+exit
+.
+quit psql
+\q
+\n
+\d
+\c
+\l
+CREATE DATABSE pirate
+\n
+[p]][[[[[ipio[
+create db pirate-radio
+psql \l pirate-radio
+\l
+\q
+createdb -h localhost -p 5432 -U postgres pirateradio
+postgres
+\l
+CREATE DATABASE -h localhost - p 5432 -U postgres pirateradio
+\l
+CREATE DATABASE
+CREATE DATABASE pirateradio;
+CREATE DATABSE pirateradio
+;
+CREATE DATABASE pirateradio
+;
+\l
+\q
+\l
+DROP DATABASE [ if exists ] pirateradio
+;
+DROP DATABASE [ IF EXISTS ] pirateradio;
+DROP DATABSE pirateradio;
+DROP DATABASE pirateradio
+;
+\l
+\q
+CREATE DATABASE pirateradio
+;
+\q
+CREATE DATABASE pirateradio
+;
+CREATE DATABASE pirateradio_test;
+\q
+\l
+\c pirateradio
+\d
+\d users
+\l users
+\c pirateradio_test
+\d
+\l users
+\l users
+\c pirateradio
+\l users
+\l users
+\d users
+\h
+SELECT * FROM users
+;
+SELECT * FROM ships
+;
+SELECT * FROM songs
+;
+\q
+\d
+\l
+\c pirateradio
+\l
+\d
+\l ships
+\d ships
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+\l
+\c pirateradio
+\l
+\d
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+SELECT * FROM ships
+;
+]q
+\q
+\c pirateradio
+SELET * FROM ships;
+SELECT * FROM ships;
+\q
+\d
+\l ships
+\d ships
+\l songs
+\i songs
+\s songs
