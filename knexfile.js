@@ -32,7 +32,7 @@ module.exports = {
     },
     ssl: true,
     seeds: {
-      directory: './db/seeds'
+      directory: './db/seeds/production'
     }
   }
 }
